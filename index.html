@@ -13,7 +13,7 @@
         <img class="img_logo" src="#" alt="Логотип компании device">
       </a>
       <form class="main_search" action="https://echo.htmlacademy.ru/" method="post">
-        <label class="visually-hidden" for="search">Введите текст</label>
+        <label class="visually_hidden" for="search">Введите текст</label>
         <input class="product_search" type="search" id="search" placeholder="Текст поиска">
         <button class="btn_search" type="submit">Найти</button>
       </form>
@@ -48,20 +48,20 @@
     <h1 class="visually_hidden">Интернет магазин «device»</h1>
 
     <div class="btn_slider">
-      <button class="slider-btn slider-prev" type="button">
-        <span class="visually-hidden">Предыдущее изображение</span>
+      <button class="slider_btn slider_prev" type="button">
+        <span class="visually_hidden">Предыдущее изображение</span>
       </button>
-      <button class="slider-btn slider-next" type="button">
-        <span class="visually-hidden">Следующее изображение</span>
+      <button class="slider_btn slider_next" type="button">
+        <span class="visually_hidden">Следующее изображение</span>
       </button>
     </div>
     <div class="radio_slider">
-      <label class="visually-hidden" for="radio"></label>
-      <input class="parination-input" type="radio" name="radio" value="quadrocopter" id="radio" checked>
-      <label class="visually-hidden" for="radio"></label>
-      <input class="parination-input" type="radio" name="radio" value="bracelet" id="radio">
-      <label class="visually-hidden" for="radio"></label>
-      <input class="parination-input" type="radio" name="radio" value="monopod" id="radio">
+      <label class="visually_hidden" for="quadrocopter">Слайд с квадрокоптером</label>
+      <input class="parination_input" type="radio" name="radio" value="quadrocopter" id="quadrocopter" checked>
+      <label class="visually_hidden" for="bracelet">Слайд с фитнес-браслетом</label>
+      <input class="parination_input" type="radio" name="radio" value="bracelet" id="bracelet">
+      <label class="visually_hidden" for="monopod">Слайд с селфи палкой</label>
+      <input class="parination_input" type="radio" name="radio" value="monopod" id="monopod">
     </div>
 
     <article class="slider">
@@ -144,28 +144,35 @@
       </ul>
     </div>
 
-    <section class="delivery">
+    <div class="btn_advantages">
       <button type="button" class="btn_delivery">Доставка</button>
-      <h2>Доставка</h2>
+      <button type="button" class="btn_warranty">Гарантия</button>
+      <button type="button" class="btn_credit">Кредит</button>
+    </div>
+
+    <section class="delivery">
+      <h2 class="visually_hidden">Наши преимущества</h2>
+      <h3 class="subtitle">Доставка</h3>
       <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем,
         поднимая его на ваш этаж.</p>
     </section>
 
     <section class="warranty">
-      <button type="button" class="btn_warranty">Гарантия</button>
-      <h2>Гарантия</h2>
+      <h2 class="visually_hidden">Наши преимущества</h2>
+      <h3 class="subtitle">Гарантия</h3>
       <p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. Товар,
         не дом, конечно же.</p>
     </section>
 
     <section class="credit">
-      <button type="button" class="btn_credit">Кредит</button>
-      <h2>Кредит</h2>
+      <h2 class="visually_hidden">Наши преимущества</h2>
+      <h3 class="subtitle">Кредит</h3>
       <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита.
         Выгодные для банка, разумеется.</p>
     </section>
 
     <section class="order">
+      <h2 class="visually_hidden">Доставка под заказ</h2>
       <button type="button" class="btn_order">Доставим редкий товар под заказ</button>
     </section>
 
@@ -194,8 +201,8 @@
       <ul class="contacts_schedule">
         <li class="contacts_schedule_items">пн—пт: с 10:00 до 22:00</li>
         <li class="contacts_schedule_items">сб—вс: с 10:00 до 19:00</li>
-        <a class="more_contacts" href="#">Напишите нам</a>
       </ul>
+      <a class="more_contacts" href="#">Напишите нам</a>
     </section>
 
     <section class="mailing">
@@ -204,7 +211,7 @@
       <p>Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а также акции,
         спецпредложения и вот это вот всё.</p>
       <form class="appointment_form" action="https://echo.htmlacademy.ru/" method="post">
-        <label class="visually-hidden" for="user_email">Ваш e-mail</label>
+        <label class="visually_hidden" for="user_email">Ваш e-mail</label>
         <input type="email" name="user_email" id="user_email" placeholder="Ваш e-mail">
         <button class="btn_subscribe" type="submit">Подписаться</button>
       </form>
@@ -214,17 +221,18 @@
 
   <footer class="page_footer">
     <section class="footer_address">
+      <h2 class="visually_hidden">Наше росположение</h2>
       <a class="logo" href="index.html">
         <img class="img_logo" src="#" alt="Логотип компании device">
       </a>
       <address class="footer_contacts_address">
-        <p class="about-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
-        <a class="footer_contacts_address_phone" href="tel:+78005558628">+7 800 555-86-28</a>
+        <p class="about_text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
       </address>
     </section>
 
     <section class="footer_social">
-      <ul class="footer-advantages_list">
+      <h2 class="visually_hidden">Социальные сети</h2>
+      <ul class="footer_advantages_list">
         <li class="footer_advantages_item">
           <a class="advantages" href="#">
             <span class="btn_advantages">Доставка</span>
@@ -261,6 +269,7 @@
     </section>
 
     <section class="footer_contacts">
+      <h2 class="visually_hidden">Связь с нами</h2>
       <address class="contacts_address">
         <a class="contacts_phone" href="tel:78128121212">+7 (812) 812-12-12</a>
       </address>

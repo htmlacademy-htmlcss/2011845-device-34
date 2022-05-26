@@ -13,7 +13,7 @@
         <img class="img_logo" src="#" alt="Логотип компании device">
       </a>
       <form class="main_search" action="https://echo.htmlacademy.ru/" method="post">
-        <label class="visually-hidden" for="search">Введите текст</label>
+        <label class="visually_hidden" for="search">Введите текст</label>
         <input class="product_search" type="search" id="search" placeholder="Текст поиска">
         <button class="btn_search" type="submit">Найти</button>
       </form>
@@ -63,32 +63,32 @@
     <section class="catalog_products">
       <h2 class="title_filter">фильтр:</h2>
       <form class="catalog_filter" action="https://echo.htmlacademy.ru/" method="get">
-        <fieldset class="catalog_filter-group">
+        <fieldset class="catalog_filter_group">
           <legend class="catalog_filter_title">Цвет</legend>
           <ul class="catalog_filter_list">
-            <li class="catalog_filter-_item">
-              <label class="visually-hidden" for="control">Черный</label>
-              <input class="control_input" type="checkbox" name="black" id="control" checked>
+            <li class="catalog_filter_item">
+              <label class="visually_hidden" for="black">Черный</label>
+              <input class="control_input" type="checkbox" name="black" id="black" checked>
               Черный
             </li>
             <li class="catalog_filter_item">
-              <label class="visually-hidden" for="control">Белый</label>
-              <input class="control_input" type="checkbox" name="whire" id="control" checked>
+              <label class="visually_hidden" for="whire">Белый</label>
+              <input class="control_input" type="checkbox" name="whire" id="whire" checked>
               Белый
             </li>
             <li class="catalog_filter_item">
-              <label class="visually-hidden" for="control">Синий</label>
-              <input class="control_input" type="checkbox" name="blue" id="control">
+              <label class="visually_hidden" for="blue">Синий</label>
+              <input class="control_input" type="checkbox" name="blue" id="blue">
               Синий
             </li>
             <li class="catalog_filter_item">
-              <label class="visually-hidden" for="control">Красный</label>
-              <input class="control_input" type="checkbox" name="red" id="control">
+              <label class="visually_hidden" for="red">Красный</label>
+              <input class="control_input" type="checkbox" name="red" id="red">
               Красный
             </li>
             <li class="catalog_filter_item">
-              <label class="visually-hidden" for="control">Розовый</label>
-              <input class="control_input" type="checkbox" name="pink" id="control">
+              <label class="visually_hidden" for="pink">Розовый</label>
+              <input class="control_input" type="checkbox" name="pink" id="pink">
               Розовый
             </li>
           </ul>
@@ -98,12 +98,12 @@
           <legend class="catalog_filter_title">Bluetoot</legend>
           <ul class="catalog_filter_list">
             <li class="catalog_filter_item">
-              <label class="visually-hidden" for="control">Bluetoot есть</label>
+              <label class="visually_hidden" for="control">Bluetoot есть</label>
               <input class="control_input" type="radio" name="bluetoot" value="bluetoot_yes" checked>
               Есть
             </li>
             <li class="catalog_filter_item">
-              <label class="visually-hidden" for="control">Bluetoot нет</label>
+              <label class="visually_hidden" for="control">Bluetoot нет</label>
               <input class="control_input" type="radio" name="bluetoot" id="control" value="bluetoot_no">
               Нет
             </li>
@@ -119,8 +119,8 @@
         <option value="expensive">Дорогие</option>
       </select>
       <div class="sort_popular">
-        <a class="first_cheap" href="#" value="Сначала дешевые"></a>
-        <a class="first_expensive" href="#" value="Сначала дорогие"></a>
+        <a class="first_cheap" href="#"></a>
+        <a class="first_expensive" href="#"></a>
       </div>
 
       <ul class="product_list">
@@ -151,7 +151,7 @@
             <h3 class="product_card_title">Селфи-палка «Следуй за мной»</h3>
           </a>
           <p class="product_card_price">1&nbsp;500&nbsp;₽</p>
-          <button class="button pagination-show-more" type="button">Показать ещё</button>
+          <button class="button pagination_show_more" type="button">Показать ещё</button>
         </li>
       </ul>
 
@@ -160,7 +160,7 @@
           <span class="visually_hidden">Назад</span>
         </a>
         <a class="pagination_next" href="#">
-          <span class="visually-hidden">Вперёд</span>
+          <span class="visually_hidden">Вперёд</span>
         </a>
       </div>
 
@@ -187,17 +187,18 @@
 
   <footer class="page_footer">
     <section class="footer_address">
+      <h2 class="visually_hidden">Наше росположение</h2>
       <a class="logo" href="index.html">
         <img class="img_logo" src="#" alt="Логотип компании device">
       </a>
       <address class="footer_contacts_address">
-        <p class="about-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
-        <a class="footer_contacts_address_phone" href="tel:+78005558628">+7 800 555-86-28</a>
+        <p class="about_text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
       </address>
     </section>
 
     <section class="footer_social">
-      <ul class="footer-advantages_list">
+      <h2 class="visually_hidden">Социальные сети</h2>
+      <ul class="footer_advantages_list">
         <li class="footer_advantages_item">
           <a class="advantages" href="#">
             <span class="btn_advantages">Доставка</span>
@@ -234,6 +235,7 @@
     </section>
 
     <section class="footer_contacts">
+      <h2 class="visually_hidden">Связь с нами</h2>
       <address class="contacts_address">
         <a class="contacts_phone" href="tel:78128121212">+7 (812) 812-12-12</a>
       </address>
@@ -241,6 +243,7 @@
         <img class="img_logo" src="#" alt="Логотип html academy">
       </a>
     </section>
+  </footer>
 </body>
 
 </html>
