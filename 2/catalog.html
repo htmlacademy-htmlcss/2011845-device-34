@@ -34,7 +34,7 @@
       </ul>
       <ul class="navigation_list">
         <li class="navigation_item">
-          <a class="dropdown_catalog navigation_link_current" href="catalog.html">Каталог товаров</a>
+          <a class="dropdown_catalog" href="catalog.html">Каталог товаров</a>
         </li>
         <li class="navigation_item">
           <a class="navigation_delivery" href="#">Доставка</a>
@@ -68,29 +68,24 @@
           <legend class="catalog_filter_title">Цвет</legend>
           <ul class="catalog_filter_list">
             <li class="catalog_filter_item">
-              <label class="visually_hidden" for="black">Черный</label>
+              <label class="black" for="black">Черный</label>
               <input class="control_input" type="checkbox" name="black" id="black" checked>
-              Черный
             </li>
             <li class="catalog_filter_item">
-              <label class="visually_hidden" for="whire">Белый</label>
+              <label class="whire" for="whire">Белый</label>
               <input class="control_input" type="checkbox" name="whire" id="whire" checked>
-              Белый
             </li>
             <li class="catalog_filter_item">
-              <label class="visually_hidden" for="blue">Синий</label>
+              <label class="blue" for="blue">Синий</label>
               <input class="control_input" type="checkbox" name="blue" id="blue">
-              Синий
             </li>
             <li class="catalog_filter_item">
-              <label class="visually_hidden" for="red">Красный</label>
+              <label class="red" for="red">Красный</label>
               <input class="control_input" type="checkbox" name="red" id="red">
-              Красный
             </li>
             <li class="catalog_filter_item">
-              <label class="visually_hidden" for="pink">Розовый</label>
+              <label class="pink" for="pink">Розовый</label>
               <input class="control_input" type="checkbox" name="pink" id="pink">
-              Розовый
             </li>
           </ul>
         </fieldset>
@@ -99,14 +94,12 @@
           <legend class="catalog_filter_title">Bluetoot</legend>
           <ul class="catalog_filter_list">
             <li class="catalog_filter_item">
-              <label class="visually_hidden" for="control">Bluetoot есть</label>
-              <input class="control_input" type="radio" name="bluetoot" value="bluetoot_yes" checked>
-              Есть
+              <label class="bluetooth" for="bluetoot_yes">Есть</label>
+              <input class="control_input" type="radio" name="bluetooth" id="bluetoot_yes" value="bluetoot_yes" checked>
             </li>
             <li class="catalog_filter_item">
-              <label class="visually_hidden" for="control">Bluetoot нет</label>
-              <input class="control_input" type="radio" name="bluetoot" id="control" value="bluetoot_no">
-              Нет
+              <label class="bluetooth" for="bluetoot_no">Нет</label>
+              <input class="control_input" type="radio" name="bluetooth" id="bluetoot_no" value="bluetoot_no">
             </li>
           </ul>
         </fieldset>
@@ -127,63 +120,62 @@
       <ul class="product_list">
         <li class="product_card">
           <a class="product_card_link" href="product.html">
-            <img class="product_card_image" src="" alt="">
+            <img class="product_card_image" src="#" alt="Любительская селфи-палка">
             <h3 class="product_card_title">Любительская селфи-палка</h3>
           </a>
           <p class="product_card_price">500&nbsp;₽</p>
         </li>
         <li class="product_card">
           <a class="product_card_link" href="product.html">
-            <img class="product_card_image" src="" alt="">
+            <img class="product_card_image" src="#" alt="Профессиональная селфи-палка">
             <h3 class="product_card_title">Профессиональная селфи-палка </h3>
           </a>
           <p class="product_card_price">1&nbsp;500&nbsp;₽</p>
         </li>
         <li class="product_card">
           <a class="product_card_link" href="product.html">
-            <img class="product_card_image" src="" alt="">
+            <img class="product_card_image" src="#" alt="Непотопляемая селфи-палка">
             <h3 class="product_card_title">Непотопляемая селфи-палка</h3>
           </a>
           <p class="product_card_price">2&nbsp;500&nbsp;₽</p>
         </li>
         <li class="product_card">
           <a class="product_card_link" href="product.html">
-            <img class="product_card_image" src="" alt="">
+            <img class="product_card_image" src="#" alt="Селфи-палка в виде руки для серии фото «Следуй за мной»">
             <h3 class="product_card_title">Селфи-палка «Следуй за мной»</h3>
           </a>
           <p class="product_card_price">1&nbsp;500&nbsp;₽</p>
-          <button class="button pagination_show_more" type="button">Показать ещё</button>
-        </li>
-      </ul>
-
-      <div class="btn_pagination">
-        <a class="pagination_prev">
-          <span class="visually_hidden">Назад</span>
-        </a>
-        <a class="pagination_next" href="#">
-          <span class="visually_hidden">Вперёд</span>
-        </a>
-      </div>
-
-      <ul class="number_pagination">
-        <li class="pagination_item">
-          <a class="pagination_link">1</a>
-        </li>
-        <li class="pagination_item">
-          <a class="pagination_link" href="#">2</a>
-        </li>
-        <li class="pagination_item">
-          <a class="pagination_link" href="#">3</a>
-        </li>
-        <li class="pagination_item">
-          <a class="pagination_link" href="#">4</a>
-        </li>
-        <li class="pagination_item">
-          <a class="pagination_link" href="#">5</a>
+          <button class="button_show_more" type="button">Показать ещё</button>
         </li>
       </ul>
     </section>
 
+    <div class="btn_pagination">
+      <a class="link_prev">
+        <span class="visually_hidden">Назад</span>
+      </a>
+      <a class="link_next" href="#">
+        <span class="visually_hidden">Вперёд</span>
+      </a>
+    </div>
+
+    <ul class="number_pagination">
+      <li class="number_item">
+        <a class="number_link">1</a>
+      </li>
+      <li class="number_item">
+        <a class="number_link" href="#">2</a>
+      </li>
+      <li class="number_item">
+        <a class="number_link" href="#">3</a>
+      </li>
+      <li class="number_item">
+        <a class="number_link" href="#">...</a>
+      </li>
+      <li class="number_item">
+        <a class="number_link" href="#">15</a>
+      </li>
+    </ul>
   </main>
 
   <footer class="page_footer">
