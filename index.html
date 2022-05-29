@@ -44,82 +44,88 @@
       </ul>
     </nav>
   </header>
+
   <main class="main_index">
     <h1 class="visually_hidden">Интернет магазин «device»</h1>
 
-    <section class="btn_slider">
+    <section class="promo">
+      <h2 class="visually_hidden">Интересные предложения</h2>
+      <ul class="promo_slider">
+        <li class="slider_item">
+          <img class="img_quadrocopter" src="#" alt="Квадрокоптер">
+          <h3 class="slogan_quadrocopter">Порхает как бабочка,<br>
+            жалит как пчела!</h3>
+          <p class="excerpt_quadrocopter">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
+            замаскированным под стандартную камеру.</p>
+          <a class="more_quadrocopter" href="#">Подробнее</a>
+          <table class="desc">
+            <tr class="desc_quadrocopter">
+              <td class="value_distance">800 м</td>
+              <td class="value_radius">50 м</td>
+            </tr>
+            <tr class="desc_quadrocopter">
+              <td class="quadrocopter_distance">Дальность полета</td>
+              <td class="quadrocopter_radius">Радиус поражения</td>
+            </tr>
+          </table>
+        </li>
+        <li class="slider_item">
+          <img class="img_bracelet" src="#" alt="Фитнес браслет">
+          <h3 class="slogan_bracelet">Худеем<br>
+            правильно!</h3>
+          <p class="excerpt_bracelet">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и
+            соблюдать диету.</p>
+          <a class="more_bracelet" href="#">Подробнее</a>
+          <table class="desc">
+            <tr class="desc_bracelet">
+              <td class="value_time">48 часов</td>
+            </tr>
+            <tr class="desc_bracelet">
+              <td class="bracelet_time">Без подзарядки</td>
+            </tr>
+          </table>
+        </li>
+        <li class="slider_item">
+          <img class="img_monopod" src="#" alt="Селфи палка">
+          <h3 class="slogan_monopod">Делай селфи,<br>
+            как Бен Стиллер! </h3>
+          <p class="excerpt_monopod">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!)
+            метров
+            длиной и весом всего 5 кг.</p>
+          <a class="more_monopod" href="#">Подробнее</a>
+          <table class="desc">
+            <tr class="desc_monopod">
+              <td class="value_long">8,5 м</td>
+              <td class="value_weight">5 кг</td>
+              <td class="value_material">Карбон</td>
+            </tr>
+            <tr class="desc_monopod">
+              <td class="monopod_long">Длина палки</td>
+              <td class="monopod_weight">Вес палки</td>
+              <td class="monopod_material">Материал</td>
+            </tr>
+          </table>
+        </li>
+      </ul>
+    </section>
+
+    <div class="btn_slider">
       <button class="slider_btn slider_prev" type="button">
         <span class="visually_hidden">Предыдущее изображение</span>
       </button>
       <button class="slider_btn slider_next" type="button">
         <span class="visually_hidden">Следующее изображение</span>
       </button>
-    </section>
-    <section class="radio_slider">
+    </div>
+
+    <div class="radio_slider">
       <label class="visually_hidden" for="quadrocopter">Слайд с квадрокоптером</label>
       <input class="parination_input" type="radio" name="radio" value="quadrocopter" id="quadrocopter" checked>
       <label class="visually_hidden" for="bracelet">Слайд с фитнес-браслетом</label>
       <input class="parination_input" type="radio" name="radio" value="bracelet" id="bracelet">
       <label class="visually_hidden" for="monopod">Слайд с селфи палкой</label>
       <input class="parination_input" type="radio" name="radio" value="monopod" id="monopod">
-    </section>
-
-    <article class="slider">
-      <img class="img_quadrocopter" src="#" alt="Квадрокоптер">
-      <h2 class="slogan_quadrocopter">Порхает как бабочка,<br>
-        жалит как пчела!</h2>
-      <p class="excerpt_quadrocopter">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
-        замаскированным под стандартную камеру.</p>
-      <a class="more_quadrocopter" href="#">Подробнее</a>
-      <table class="desc">
-        <tr class="desc_quadrocopter">
-          <td class="value_distance">800 м</td>
-          <td class="value_radius">50 м</td>
-        </tr>
-        <tr class="desc_quadrocopter">
-          <td class="quadrocopter_distance">Дальность полета</td>
-          <td class="quadrocopter_radius">Радиус поражения</td>
-        </tr>
-      </table>
-    </article>
-
-    <article class="slider">
-      <img class="img_bracelet" src="#" alt="Фитнес браслет">
-      <h2 class="slogan_bracelet">Худеем<br>
-        правильно!</h2>
-      <p class="excerpt_bracelet">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и
-        соблюдать диету.</p>
-      <a class="more_bracelet" href="#">Подробнее</a>
-      <table class="desc">
-        <tr class="desc_bracelet">
-          <td class="value_time">48 часов</td>
-        </tr>
-        <tr class="desc_bracelet">
-          <td class="bracelet_time">Без подзарядки</td>
-        </tr>
-      </table>
-    </article>
-
-    <article class="slider">
-      <img class="img_monopod" src="#" alt="Селфи палка">
-      <h2 class="slogan_monopod">Делай селфи,<br>
-        как Бен Стиллер! </h2>
-      <p class="excerpt_monopod">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров
-        длиной и весом всего 5 кг.</p>
-      <a class="more_monopod" href="#">Подробнее</a>
-      <table class="desc">
-        <tr class="desc_monopod">
-          <td class="value_long">8,5 м</td>
-          <td class="value_weight">5 кг</td>
-          <td class="value_material">Карбон</td>
-        </tr>
-        <tr class="desc_monopod">
-          <td class="monopod_long">Длина палки</td>
-          <td class="monopod_weight">Вес палки</td>
-          <td class="monopod_material">Материал</td>
-        </tr>
-      </table>
-    </article>
+    </div>
 
     <div class="pagination_catalog">
       <ul class="pagination_list">
@@ -144,12 +150,6 @@
       </ul>
     </div>
 
-    <section class="btn_advantages">
-      <button type="button" class="btn_delivery">Доставка</button>
-      <button type="button" class="btn_warranty">Гарантия</button>
-      <button type="button" class="btn_credit">Кредит</button>
-    </section>
-
     <section class="advantages">
       <h2 class="visually_hidden">Наши преимущества</h2>
       <ul class="slider_advantages">
@@ -160,16 +160,24 @@
         </li>
         <li class="slider_item">
           <h3>Гарантия</h3>
-          <p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. Товар,
+          <p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый.
+            Товар,
             не дом, конечно же.</p>
         </li>
         <li class="slider_item">
           <h3>Кредит</h3>
-          <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита.
+          <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия
+            кредита.
             Выгодные для банка, разумеется.</p>
         </li>
       </ul>
     </section>
+
+    <div class="btn_advantages">
+      <button type="button" class="btn_delivery">Доставка</button>
+      <button type="button" class="btn_warranty">Гарантия</button>
+      <button type="button" class="btn_credit">Кредит</button>
+    </div>
 
     <section class="order">
       <h2 class="visually_hidden">Доставка под заказ</h2>
