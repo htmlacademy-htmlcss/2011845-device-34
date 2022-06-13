@@ -38,7 +38,7 @@ body {
 }
 
 .product_search {
-  font-family: "Rubik", sans-serif;
+  font-family: inherit;
   font-size: 16px;
   line-height: 20px;
   color: #000000;
@@ -49,7 +49,7 @@ a:not(.contacts_phone) {
 }
 
 .navigation_user .navigation_link {
-  font-family: "Rubik", sans-serif;
+  font-family: inherit;
   color: #000000;
 }
 
@@ -74,12 +74,13 @@ a:not(.contacts_phone) {
 }
 
 .contacts_phone {
-  font-family: "Rubik", sans-serif;
+  font-family: inherit;
   color: #444444;
+  font-style: normal;
 }
 
 .footer_contacts .contacts_phone {
-  font-family: "Rubik", sans-serif;
+  font-family: inherit;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
@@ -101,21 +102,21 @@ a:not(.contacts_phone) {
 }
 
 .breadcrumbs_link {
-  font-family: "Rubik", sans-serif;
+  font-family: inherit;
   font-size: 16px;
   line-height: 19px;
   color: #000000;
 }
 
 .product_card_link {
-  font-family: "Rubik", sans-serif;
+  font-family: inherit;
   font-size: 18px;
   line-height: 20px;
   color: #000000;
 }
 
 .number_link {
-  font-family: "Rubik", sans-serif;
+  font-family: inherit;
   font-size: 16px;
   line-height: 20px;
   color: #444444;
@@ -177,7 +178,7 @@ a:not(.contacts_phone) {
 }
 
 .inner_header_title {
-  font-family: 'Raleway';
+  font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
   color: #000000;
@@ -189,7 +190,7 @@ a:not(.contacts_phone) {
 }
 
 .button_show_more {
-  font-family: 'Raleway';
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 19px;
   align-items: center;
@@ -201,10 +202,9 @@ a:not(.contacts_phone) {
 }
 
 .pagination {
-  font-family: 'Raleway';
+  font-family: "Raleway", sans-serif;
   line-height: 21px;
   align-items: center;
   text-transform: uppercase;
   color: #000000;
 }
-
