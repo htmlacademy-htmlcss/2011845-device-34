@@ -4,13 +4,14 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Девайс</title>
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body>
   <header class="main_header">
     <nav class="main_navigation">
       <a class="logo" href="#">
-        <img class="img_logo" src="./images/logo_device.svg" alt="Логотип компании device">
+        <img class="img_logo" src="./images/logo_device.svg" width="145" height="36" alt="Логотип компании device">
       </a>
       <form class="main_search" action="https://echo.htmlacademy.ru/" method="post">
         <label class="visually_hidden" for="search">Введите текст</label>
@@ -19,27 +20,27 @@
       </form>
       <ul class="navigation_user">
         <li class="navigation_item">
-          <a class="navigation_get" href="#">Войти</a>
+          <a class="navigation_link" href="#">Войти</a>
         </li>
         <li class="navigation_item">
-          <a class="navigation_compare" href="#">Сравнить</a>
+          <a class="navigation_link" href="#">Сравнить</a>
         </li>
         <li class="navigation_item">
-          <a class="navigation_basket" href="#">Корзина</a>
+          <a class="navigation_link" href="#">Корзина</a>
         </li>
       </ul>
       <ul class="navigation_list">
         <li class="navigation_item">
-          <a class="dropdown_catalog " href="#">Каталог товаров</a>
+          <a class="navigation_link " href="#">Каталог товаров</a>
         </li>
         <li class="navigation_item">
-          <a class="navigation_delivery" href="#">Доставка</a>
+          <a class="navigation_link" href="#">Доставка</a>
         </li>
         <li class="navigation_item">
-          <a class="navigation_warranty" href="#">Гарантия</a>
+          <a class="navigation_link" href="#">Гарантия</a>
         </li>
         <li class="navigation_item">
-          <a class="navigation_contacts" href="#">Контакты</a>
+          <a class="navigation_link" href="#">Контакты</a>
         </li>
       </ul>
     </nav>
@@ -52,12 +53,13 @@
       <h2 class="visually_hidden">Интересные предложения</h2>
       <ul class="promo_slider">
         <li class="slider_item">
-          <img class="img_quadrocopter" src="./images/promo_slider/quadrocopter.png" alt="Квадрокоптер">
+          <img class="img_quadrocopter" src="./images/promo_slider/quadrocopter.png" width="560" height="560"
+            alt="Квадрокоптер">
           <h3 class="slogan_quadrocopter">Порхает как бабочка,<br>
             жалит как пчела!</h3>
           <p class="excerpt_quadrocopter">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
             замаскированным под стандартную камеру.</p>
-          <a class="more_quadrocopter" href="#">Подробнее</a>
+          <a class="more" href="#">Подробнее</a>
           <table class="desc">
             <tr class="desc_quadrocopter">
               <td class="value_distance">800 м</td>
@@ -70,12 +72,13 @@
           </table>
         </li>
         <li class="slider_item">
-          <img class="img_bracelet" src="./images/promo_slider/bracelet.png" alt="Фитнес браслет">
+          <img class="img_bracelet" src="./images/promo_slider/bracelet.png" width="560" height="560"
+            alt="Фитнес браслет">
           <h3 class="slogan_bracelet">Худеем<br>
             правильно!</h3>
           <p class="excerpt_bracelet">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и
             соблюдать диету.</p>
-          <a class="more_bracelet" href="#">Подробнее</a>
+          <a class="more" href="#">Подробнее</a>
           <table class="desc">
             <tr class="desc_bracelet">
               <td class="value_time">48 часов</td>
@@ -86,13 +89,13 @@
           </table>
         </li>
         <li class="slider_item">
-          <img class="img_monopod" src="./images/promo_slider/monopod.png" alt="Селфи палка">
+          <img class="img_monopod" src="./images/promo_slider/monopod.png" width="560" height="560" alt="Селфи палка">
           <h3 class="slogan_monopod">Делай селфи,<br>
             как Бен Стиллер! </h3>
           <p class="excerpt_monopod">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!)
             метров
             длиной и весом всего 5 кг.</p>
-          <a class="more_monopod" href="#">Подробнее</a>
+          <a class="more" href="#">Подробнее</a>
           <table class="desc">
             <tr class="desc_monopod">
               <td class="value_long">8,5 м</td>
@@ -126,22 +129,22 @@
 
     <ul class="catalog_list">
       <li class="catalog_item">
-        <a class="link_virtual" href="#">Виртуальная реальность</a>
+        <a class="link_more" href="#">Виртуальная реальность</a>
       </li>
       <li class="catalog_item">
-        <a class="link_monopod" href="catalog.html">Моноподы для селфи</a>
+        <a class="link_more" href="catalog.html">Моноподы для селфи</a>
       </li>
       <li class="catalog_item">
-        <a class="link_cameras" href="#">Экшн-камеры</a>
+        <a class="link_more" href="#">Экшн-камеры</a>
       </li>
       <li class="catalog_item">
-        <a class="link_bracelet" href="#">Фитнес-браслеты</a>
+        <a class="link_more" href="#">Фитнес-браслеты</a>
       </li>
       <li class="catalog_item">
-        <a class="link_watch" href="#">Умные часы</a>
+        <a class="link_more" href="#">Умные часы</a>
       </li>
       <li class="catalog_item">
-        <a class="link_quadrocopter" href="#">Квадрокоптеры</a>
+        <a class="link_more" href="#">Квадрокоптеры</a>
       </li>
     </ul>
 
@@ -189,7 +192,7 @@
         <li class="delivery_company">СДИК</li>
         <li class="delivery_company">ТоксБерри</li>
       </ul>
-      <a class="more_about" href="#">Подробнее о нас</a>
+      <a class="more" href="#">Подробнее о нас</a>
     </section>
 
     <section class="contacts">
@@ -205,7 +208,7 @@
         <li class="contacts_schedule_items">пн—пт: с 10:00 до 22:00</li>
         <li class="contacts_schedule_items">сб—вс: с 10:00 до 19:00</li>
       </ul>
-      <a class="more_contacts" href="#">Напишите нам</a>
+      <a class="more" href="#">Напишите нам</a>
     </section>
 
     <section class="mailing">
@@ -226,7 +229,7 @@
     <section class="footer_address">
       <h2 class="visually_hidden">Наше росположение</h2>
       <a class="logo" href="index.html">
-        <img class="img_logo" src="./images/logo_device.svg" alt="Логотип компании device">
+        <img class="img_logo" src="./images/logo_device.svg" width="145" height="36" alt="Логотип компании device">
       </a>
       <address class="footer_contacts_address">
         <p class="about_text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
@@ -237,34 +240,34 @@
       <h2 class="visually_hidden">Социальные сети</h2>
       <ul class="footer_advantages_list">
         <li class="footer_advantages_item">
-          <a class="advantages" href="#">
-            <span class="btn_advantages">Доставка</span>
+          <a class="advantages_link" href="#">
+            <span class="advantages_footer">Доставка</span>
           </a>
         </li>
         <li class="footer_advantages_item">
-          <a class="advantages" href="#">
-            <span class="btn_advantages">Гарантия</span>
+          <a class="advantages_link" href="#">
+            <span class="advantages_footer">Гарантия</span>
           </a>
         </li>
         <li class="footer_advantages_item">
-          <a class="advantages" href="#">
-            <span class="btn_advantages">Контакты</span>
+          <a class="advantages_link" href="#">
+            <span class="advantages_footer">Контакты</span>
           </a>
         </li>
       </ul>
       <ul class="footer_social_list">
         <li class="footer_social_item">
-          <a class="button" href="https://t.me/htmlacademy">
+          <a class="social_link" href="https://t.me/htmlacademy">
             <span class="visually_hidden">Телеграм</span>
           </a>
         </li>
         <li class="footer_social_item">
-          <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+          <a class="social_link" href="https://www.youtube.com/user/htmlacademyru">
             <span class="visually_hidden">Ютуб</span>
           </a>
         </li>
         <li class="footer_social_item">
-          <a class="button" href="https://twitter.com/htmlacademy_ru">
+          <a class="social_link" href="https://twitter.com/htmlacademy_ru">
             <span class="visually_hidden">Твиттер</span>
           </a>
         </li>
@@ -274,10 +277,10 @@
     <section class="footer_contacts">
       <h2 class="visually_hidden">Связь с нами</h2>
       <address class="contacts_address">
-        <a class="contacts_phone" href="tel:78128121212">+7 (812) 812-12-12</a>
+        <a class="contacts_phone" href="tel:78128121212">Тел.: +7 (812) 812-12-12</a>
       </address>
       <a class="logo" href="https://htmlacademy.ru/profile/id2011845">
-        <img class="img_logo" src="./images/logo_htmlacademy.svg" alt="Логотип html academy">
+        <img class="img_logo" src="./images/logo_htmlacademy.svg" width="115" height="33" alt="Логотип html academy">
       </a>
     </section>
   </footer>
