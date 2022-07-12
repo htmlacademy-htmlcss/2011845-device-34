@@ -21,45 +21,48 @@
           <button class="btn_search" type="submit">Найти</button>
         </form>
         <ul class="navigation_user">
-          <li class="navigation_item">
+          <li class="navigation_item get_link">
             <a class="navigation_link" href="#">Коля Петухов</a>
           </li>
-          <li class="navigation_item">
+          <li class="navigation_item contrast_link">
             <a class="navigation_link" href="#">Сравнить</a>
           </li>
-          <li class="navigation_item">
+          <li class="navigation_item basket_link">
             <a class="navigation_link" href="#">Корзина</a>
           </li>
         </ul>
-        <button class="dropdown_link ">Каталог товаров</button>
         <ul class="navigation_list">
-          <li class="navigation_item">
+          <li class="navigation_item dropdown_item">
+            <p class="dropdown_btn ">Каталог товаров</p>
+          </li>
+          <li class="navigation_item delivery_item">
             <a class="navigation_link" href="#">Доставка</a>
           </li>
-          <li class="navigation_item">
+          <li class="navigation_item guarantee_item">
             <a class="navigation_link" href="#">Гарантия</a>
           </li>
-          <li class="navigation_item">
+          <li class="navigation_item contacts_item">
             <a class="navigation_link" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <main class="main_container main_inner">
-      <h1 class="inner_header_title container">Моноподы для селфи</h1>
-      <ol class="breadcrumbs container">
-        <li class="breadcrumbs_item">
-          <a class="breadcrumbs_link" href="index.html">Главная</a>
-        </li>
-        <li class="breadcrumbs_item">
-          <a class="breadcrumbs_link" href="">Каталог товаров</a>
-        </li>
-        <li class="breadcrumbs_item">
-          <a class="breadcrumbs_link" href="#">Моноподы для селфи</a>
-        </li>
-      </ol>
-
+    <main class="main_inner">
+      <div class="main_container">
+        <h1 class="inner_header_title ">Моноподы для селфи</h1>
+        <ol class="breadcrumbs">
+          <li class="breadcrumbs_item">
+            <a class="breadcrumbs_link" href="index.html">Главная</a>
+          </li>
+          <li class="breadcrumbs_item">
+            <a class="breadcrumbs_link" href="">Каталог товаров</a>
+          </li>
+          <li class="breadcrumbs_item">
+            <a class="breadcrumbs_link" href="#">Моноподы для селфи</a>
+          </li>
+        </ol>
+      </div>
 
       <section class="catalog_products">
         <div class="page_container">
@@ -108,16 +111,22 @@
             <button class="btn" type="submit">Показать</button>
           </form>
 
-          <div class="catalog_right_column">
-            <h2 class="title_filter">сортировка:</h2>
-            <select class="select_control">
-              <option value="popular">Популярные</option>
-              <option value="cheap">Дешевые</option>
-              <option value="expensive">Дорогие</option>
-            </select>
-            <div class="sort_popular">
-              <a class="first_popular" href="#"></a>
-              <a class="first_no_popular" href="#"></a>
+          <div class="catalog_container">
+            <div class="sort_container">
+              <h2 class="title_sort">сортировка:</h2>
+              <select class="select_control">
+                <option value="popular">Популярные</option>
+                <option value="cheap">Дешевые</option>
+                <option value="expensive">Дорогие</option>
+              </select>
+              <div class="sort_popular">
+                <a class="first_popular" href="#">
+                  <img class="icon_popular" src="./images/sort_popular.svg">
+                </a>
+                <a class="first_no_popular" href="#">
+                  <img class="icon_popular" src="./images/sort_no_popular.svg">
+                </a>
+              </div>
             </div>
 
             <ul class="product_list">
@@ -152,44 +161,48 @@
                   <h3 class="product_card_title">Селфи-палка «Следуй за мной»</h3>
                 </a>
                 <p class="product_card_price">1&nbsp;500&nbsp;₽</p>
+              </li>
+              <li class="show_more">
                 <button class="button_show_more" type="button">Загрузить ещЁ</button>
               </li>
             </ul>
 
-
-            <div class="btn_pagination">
-              <a class="link_pagination" href="#">
-                <span class="pagination">Назад</span>
-              </a>
-              <a class="link_pagination" href="#">
-                <span class="pagination">Вперёд</span>
-              </a>
+            <div class="pagination_container">
+              <ul class="number_pagination">
+                <li class="btn_item back">
+                  <a class="link_pagination" href="#">
+                    <span class="pagination">Назад</span>
+                  </a>
+                </li>
+                <li class="number_item">
+                  <a class="number_link">1</a>
+                </li>
+                <li class="number_item">
+                  <a class="number_link" href="#">2</a>
+                </li>
+                <li class="number_item">
+                  <a class="number_link" href="#">3</a>
+                </li>
+                <li class="number_item">
+                  <a class="number_link" href="#">...</a>
+                </li>
+                <li class="number_item">
+                  <a class="number_link" href="#">15</a>
+                </li>
+                <li class="btn_item forward">
+                  <a class="link_pagination" href="#">
+                    <span class="pagination">Вперёд</span>
+                  </a>
+                </li>
+              </ul>
             </div>
-
-            <ul class="number_pagination">
-              <li class="number_item">
-                <a class="number_link">1</a>
-              </li>
-              <li class="number_item">
-                <a class="number_link" href="#">2</a>
-              </li>
-              <li class="number_item">
-                <a class="number_link" href="#">3</a>
-              </li>
-              <li class="number_item">
-                <a class="number_link" href="#">...</a>
-              </li>
-              <li class="number_item">
-                <a class="number_link" href="#">15</a>
-              </li>
-            </ul>
           </div>
         </div>
       </section>
     </main>
 
     <footer class="page_footer">
-      <div class="flex_container">
+      <div class="footer_container">
         <section class="footer_address">
           <h2 class="visually_hidden">Наше росположение</h2>
           <a class="logo_footer" href="index.html">
@@ -223,17 +236,18 @@
           <ul class="footer_social_list">
             <li class="footer_social_item">
               <a class="social_link" href="https://t.me/htmlacademy">
-                <span class="visually_hidden">Телеграм</span>
+                <img class="img_footer" src="./images/footer/telegram.svg" alt="Телеграм">
               </a>
             </li>
             <li class="footer_social_item">
               <a class="social_link" href="https://www.youtube.com/user/htmlacademyru">
-                <span class="visually_hidden">Ютуб</span>
+                <img class="img_footer" src="./images/footer/youtube.svg" alt="Ютуб">
+
               </a>
             </li>
             <li class="footer_social_item">
               <a class="social_link" href="https://twitter.com/htmlacademy_ru">
-                <span class="visually_hidden">Твиттер</span>
+                <img class="img_footer" src="./images/footer/twitter.svg" alt="Твиттер">
               </a>
             </li>
           </ul>

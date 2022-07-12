@@ -12,7 +12,8 @@
     <header class="main_header">
       <nav class="main_navigation">
         <a class="logo_header" href="#">
-          <img class="img_logo_header" src="./images/logo_device.svg" width="145" height="36" alt="Логотип компании device">
+          <img class="img_logo_header" src="./images/logo_device.svg" width="145" height="36"
+            alt="Логотип компании device">
         </a>
         <form class="main_search" action="https://echo.htmlacademy.ru/" method="post">
           <label class="visually_hidden" for="search">Введите текст</label>
@@ -20,32 +21,35 @@
           <button class="btn_search" type="submit">Найти</button>
         </form>
         <ul class="navigation_user">
-          <li class="navigation_item">
-            <a class="get_link navigation_link" href="#">Войти</a>
+          <li class="navigation_item get_link">
+            <a class="navigation_link" href="#">Войти</a>
           </li>
-          <li class="navigation_item">
+          <li class="navigation_item contrast_link">
             <a class="navigation_link" href="#">Сравнить</a>
           </li>
-          <li class="navigation_item">
+          <li class="navigation_item basket_link">
             <a class="navigation_link" href="#">Корзина</a>
           </li>
         </ul>
-        <button class="dropdown_link ">Каталог товаров</button>
+
         <ul class="navigation_list">
-          <li class="navigation_item">
+          <li class="navigation_item dropdown_item">
+            <p class="dropdown_btn ">Каталог товаров</p>
+          </li>
+          <li class="navigation_item delivery_item">
             <a class="navigation_link" href="#">Доставка</a>
           </li>
-          <li class="navigation_item">
+          <li class="navigation_item guarantee_item">
             <a class="navigation_link" href="#">Гарантия</a>
           </li>
-          <li class="navigation_item">
+          <li class="navigation_item contacts_item">
             <a class="navigation_link" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <main class="main_container main_index">
+    <main class="main_index">
       <h1 class="visually_hidden container">Интернет магазин «device»</h1>
       <section class="promo container">
         <h2 class="visually_hidden">Интересные предложения</h2>
@@ -216,29 +220,29 @@
 
       <section class="mailing">
         <div class="container">
-          <h2 class="mailing_title">Подпишитесь
-            на рассылку</h2>
+          <h2 class="mailing_title">Подпишитесьна рассылку</h2>
           <p class="mailing_content">Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками,
-            а также акции,
-            спецпредложения и вот это вот всё.</p>
+            а также акции, спецпредложения и вот это вот всё.</p>
         </div>
-        <div class="flex_container">
-          <form class="appointment_form" action="https://echo.htmlacademy.ru/" method="post">
+        <div class="grig_container_mailing">
+          <form class="appointment_form " action="https://echo.htmlacademy.ru/" method="post">
             <label class="visually_hidden" for="user_email">Ваш e-mail</label>
             <input class="email" type="email" name="user_email" id="user_email" placeholder="Ваш e-mail">
-            <button class="btn_subscribe" type="submit">Подписаться</button>
           </form>
+          <button class="btn_subscribe" type="submit">Подписаться</button>
+          <img class="tick" src="./images/tick.svg">
           <p class="free">Это бесплатно</p>
         </div>
       </section>
     </main>
 
     <footer class="page_footer">
-      <div class="flex_container">
+      <div class="footer_container">
         <section class="footer_address">
           <h2 class="visually_hidden">Наше росположение</h2>
           <a class="logo_footer" href="index.html">
-            <img class="img_logo_footer" src="./images/logo_device.svg" width="145" height="36" alt="Логотип компании device">
+            <img class="img_logo_footer" src="./images/logo_device.svg" width="145" height="36"
+              alt="Логотип компании device">
           </a>
           <address class="footer_contacts_address">
             <p class="about_text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
@@ -260,24 +264,25 @@
             </li>
             <li class="footer_advantages_item">
               <a class="advantages_link" href="#">
-                <span class="advantages_footerА">Контакты</span>
+                <span class="advantages_footer">Контакты</span>
               </a>
             </li>
           </ul>
           <ul class="footer_social_list">
             <li class="footer_social_item">
               <a class="social_link" href="https://t.me/htmlacademy">
-                <span class="visually_hidden">Телеграм</span>
+                <img class="img_footer" src="./images/footer/telegram.svg" alt="Телеграм">
               </a>
             </li>
             <li class="footer_social_item">
               <a class="social_link" href="https://www.youtube.com/user/htmlacademyru">
-                <span class="visually_hidden">Ютуб</span>
+                <img class="img_footer" src="./images/footer/youtube.svg" alt="Ютуб">
+
               </a>
             </li>
             <li class="footer_social_item">
               <a class="social_link" href="https://twitter.com/htmlacademy_ru">
-                <span class="visually_hidden">Твиттер</span>
+                <img class="img_footer" src="./images/footer/twitter.svg" alt="Твиттер">
               </a>
             </li>
           </ul>
