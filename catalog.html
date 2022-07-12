@@ -65,50 +65,52 @@
 
       <section class="catalog_products">
         <div class="page_container">
-          <h2 class="title_filter">фильтр:</h2>
-          <form class="catalog_filter" action="https://echo.htmlacademy.ru/" method="get">
-            <fieldset class="catalog_filter_group">
-              <legend class="catalog_filter_title">Цвет</legend>
-              <ul class="catalog_filter_list">
-                <li class="catalog_filter_item">
-                  <label class="label_color" for="black">Черный</label>
-                  <input class="control_input" type="checkbox" name="black" id="black" checked>
-                </li>
-                <li class="catalog_filter_item">
-                  <label class="label_color" for="whire">Белый</label>
-                  <input class="control_input" type="checkbox" name="whire" id="whire" checked>
-                </li>
-                <li class="catalog_filter_item">
-                  <label class="label_color" for="blue">Синий</label>
-                  <input class="control_input" type="checkbox" name="blue" id="blue">
-                </li>
-                <li class="catalog_filter_item">
-                  <label class="label_color" for="red">Красный</label>
-                  <input class="control_input" type="checkbox" name="red" id="red">
-                </li>
-                <li class="catalog_filter_item">
-                  <label class="label_color" for="pink">Розовый</label>
-                  <input class="control_input" type="checkbox" name="pink" id="pink">
-                </li>
-              </ul>
-            </fieldset>
+          <div class="filter_container">
+            <h2 class="title_filter">фильтр:</h2>
+            <form class="catalog_filter" action="https://echo.htmlacademy.ru/" method="get">
+              <fieldset class="catalog_filter_group">
+                <legend class="catalog_filter_title">Цвет</legend>
+                <ul class="catalog_filter_list">
+                  <li class="catalog_filter_item">
+                    <label class="label_color" for="black">Черный</label>
+                    <input class="control_input" type="checkbox" name="black" id="black" checked>
+                  </li>
+                  <li class="catalog_filter_item">
+                    <label class="label_color" for="whire">Белый</label>
+                    <input class="control_input" type="checkbox" name="whire" id="whire" checked>
+                  </li>
+                  <li class="catalog_filter_item">
+                    <label class="label_color" for="blue">Синий</label>
+                    <input class="control_input" type="checkbox" name="blue" id="blue">
+                  </li>
+                  <li class="catalog_filter_item">
+                    <label class="label_color" for="red">Красный</label>
+                    <input class="control_input" type="checkbox" name="red" id="red">
+                  </li>
+                  <li class="catalog_filter_item">
+                    <label class="label_color" for="pink">Розовый</label>
+                    <input class="control_input" type="checkbox" name="pink" id="pink">
+                  </li>
+                </ul>
+              </fieldset>
 
-            <fieldset class="catalog_filter_group">
-              <legend class="catalog_filter_title">Bluetoot</legend>
-              <ul class="catalog_filter_list">
-                <li class="catalog_filter_item">
-                  <label class="bluetooth" for="bluetoot_yes">Есть</label>
-                  <input class="control_input" type="radio" name="bluetooth" id="bluetoot_yes" value="bluetoot_yes"
-                    checked>
-                </li>
-                <li class="catalog_filter_item">
-                  <label class="bluetooth" for="bluetoot_no">Нет</label>
-                  <input class="control_input" type="radio" name="bluetooth" id="bluetoot_no" value="bluetoot_no">
-                </li>
-              </ul>
-            </fieldset>
-            <button class="btn" type="submit">Показать</button>
-          </form>
+              <fieldset class="catalog_filter_group">
+                <legend class="catalog_filter_title">Bluetoot</legend>
+                <ul class="catalog_filter_list">
+                  <li class="catalog_filter_item">
+                    <label class="bluetooth" for="bluetoot_yes">Есть</label>
+                    <input class="control_input" type="radio" name="bluetooth" id="bluetoot_yes" value="bluetoot_yes"
+                      checked>
+                  </li>
+                  <li class="catalog_filter_item">
+                    <label class="bluetooth" for="bluetoot_no">Нет</label>
+                    <input class="control_input" type="radio" name="bluetooth" id="bluetoot_no" value="bluetoot_no">
+                  </li>
+                </ul>
+              </fieldset>
+              <button class="btn" type="submit">Показать</button>
+            </form>
+          </div>
 
           <div class="catalog_container">
             <div class="sort_container">
@@ -133,68 +135,75 @@
                 <a class="product_card_link" href="#">
                   <img class="product_card_image" src="./images/product_card/amateur_selfie_stick.jpg" width="360"
                     height="380" alt="Любительская селфи-палка">
-                  <h3 class="product_card_title">Любительская селфи-палка</h3>
                 </a>
-                <p class="product_card_price">500&nbsp;₽</p>
+                <a class="product_card_link" href="product.html">
+                  <h3 class="product_card_title">Любительская селфи-палка</h3>
+                  <p class="product_card_price">500&nbsp;₽</p>
+                </a>
               </li>
               <li class="product_card">
                 <a class="product_card_link" href="#">
                   <img class="product_card_image" src="./images/product_card/professional_selfie_stick.jpg" width="360"
                     height="380" alt="Профессиональная селфи-палка">
-                  <h3 class="product_card_title">Профессиональная селфи-палка </h3>
                 </a>
-                <p class="product_card_price">1&nbsp;500&nbsp;₽</p>
+                <a class="product_card_link" href="product.html">
+                  <h3 class="product_card_title">Профессиональная селфи-палка </h3>
+                  <p class="product_card_price">1&nbsp;500&nbsp;₽</p>
+                </a>
               </li>
               <li class="product_card">
                 <a class="product_card_link" href="#">
                   <img class="product_card_image" src="./images/product_card/unsinkable_selfie_stick.jpg" width="360"
                     height="380" alt="Непотопляемая селфи-палка">
-                  <h3 class="product_card_title">Непотопляемая селфи-палка</h3>
                 </a>
-                <p class="product_card_price">2&nbsp;500&nbsp;₽</p>
+                <a class="product_card_link" href="product.html">
+                  <h3 class="product_card_title">Непотопляемая селфи-палка</h3>
+                  <p class="product_card_price">2&nbsp;500&nbsp;₽</p>
+                </a>
               </li>
               <li class="product_card">
                 <a class="product_card_link" href="#">
                   <img class="product_card_image" src="./images/product_card/selfie_stick_follow_me.jpg" width="360"
                     height="380" alt="Селфи-палка в виде руки для серии фото «Следуй за мной»">
-                  <h3 class="product_card_title">Селфи-палка «Следуй за мной»</h3>
                 </a>
-                <p class="product_card_price">1&nbsp;500&nbsp;₽</p>
+                <a class="product_card_link" href="product.html">
+                  <h3 class="product_card_title">Селфи-палка «Следуй за мной»</h3>
+                  <p class="product_card_price">1&nbsp;500&nbsp;₽</p>
+                </a>
               </li>
               <li class="show_more">
                 <button class="button_show_more" type="button">Загрузить ещЁ</button>
               </li>
             </ul>
 
-            <div class="pagination_container">
-              <ul class="number_pagination">
-                <li class="btn_item back">
-                  <a class="link_pagination" href="#">
-                    <span class="pagination">Назад</span>
-                  </a>
-                </li>
-                <li class="number_item">
-                  <a class="number_link">1</a>
-                </li>
-                <li class="number_item">
-                  <a class="number_link" href="#">2</a>
-                </li>
-                <li class="number_item">
-                  <a class="number_link" href="#">3</a>
-                </li>
-                <li class="number_item">
-                  <a class="number_link" href="#">...</a>
-                </li>
-                <li class="number_item">
-                  <a class="number_link" href="#">15</a>
-                </li>
-                <li class="btn_item forward">
-                  <a class="link_pagination" href="#">
-                    <span class="pagination">Вперёд</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
+            <ul class="number_pagination">
+              <li class="btn_item back">
+                <a class="link_pagination" href="#">
+                  <span class="pagination">Назад</span>
+                </a>
+              </li>
+              <li class="number_item">
+                <a class="number_link">1</a>
+              </li>
+              <li class="number_item">
+                <a class="number_link" href="#">2</a>
+              </li>
+              <li class="number_item">
+                <a class="number_link" href="#">3</a>
+              </li>
+              <li class="number_item">
+                <a class="number_link" href="#">...</a>
+              </li>
+              <li class="number_item">
+                <a class="number_link" href="#">15</a>
+              </li>
+              <li class="btn_item forward">
+                <a class="link_pagination" href="#">
+                  <span class="pagination">Вперёд</span>
+                </a>
+              </li>
+            </ul>
+
           </div>
         </div>
       </section>
