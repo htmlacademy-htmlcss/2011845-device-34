@@ -150,39 +150,46 @@
       </ul>
 
       <section class="advantages">
-        <div class="container">
+        <div class="flex_container_advantages">
+          <div class="advantages_container">
+            <button type="button" class="btn_advanteges">Доставка</button>
+            <button type="button" class="btn_advanteges">Гарантия</button>
+            <button type="button" class="btn_advanteges">Кредит</button>
+          </div>
+
           <h2 class="visually_hidden">Наши преимущества</h2>
           <ul class="slider_advantages">
-            <li class="slider_item">
+            <li class="advantages_item">
               <h3 class="title_advantages">Доставка</h3>
-              <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо
+              <p class="text_advantages">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно
+                бесплатно! Ведь мы неплохо
                 заработаем, поднимая его на ваш этаж.</p>
+              <img class="img_delivery" src="./images/advantages/delivery.svg">
             </li>
-            <li class="slider_item">
+            <li class="advantages_item">
               <h3 class="title_advantages">Гарантия</h3>
-              <p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый.
+              <p class="text_advantages">Если из-за возгорания купленного у нас товара у вас сгорит дом — не
+                переживайте, мы выдадим вам новый.
                 Товар,
                 не дом, конечно же.</p>
+              <img class="img_warranty" src="./images/advantages/warranty.svg">
             </li>
-            <li class="slider_item">
+            <li class="advantages_item">
               <h3 class="title_advantages">Кредит</h3>
-              <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия
+              <p class="text_advantages">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас
+                наиболее выгодные условия
                 кредита.
                 Выгодные для банка, разумеется.</p>
+              <img class="img_credit" src="./images/advantages/credit.svg">
             </li>
           </ul>
         </div>
       </section>
 
-      <div class="advantages_container container">
-        <button type="button" class="btn_advanteges">Доставка</button>
-        <button type="button" class="btn_advanteges">Гарантия</button>
-        <button type="button" class="btn_advanteges">Кредит</button>
-      </div>
-
       <section class="order container">
         <h2 class="visually_hidden">Доставка под заказ</h2>
-        <button type="button" class="btn_order">Доставим редкий товар под заказ</button>
+        <button type="button" class="btn_order">
+          <img class="img_car" src="./images/order/car.svg">Доставим редкий товар под заказ<img class="img_i" src="./images/order/i.svg"></button>
       </section>
 
       <div class="flex_container">
@@ -223,7 +230,7 @@
           <p class="mailing_content">Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками,
             а также акции, спецпредложения и вот это вот всё.</p>
         </div>
-        <div class="grig_container_mailing">
+        <div class="grid_container_mailing">
           <form class="appointment_form " action="https://echo.htmlacademy.ru/" method="post">
             <label class="visually_hidden" for="user_email">Ваш e-mail</label>
             <input class="email" type="email" name="user_email" id="user_email" placeholder="Ваш e-mail">
